@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{B391AAA8-45C4-3BAB-74FF-F2BE331C186E}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "KinectPlugins",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "KinectV2",
+			"Enabled": true
+		}
+	]
+}
